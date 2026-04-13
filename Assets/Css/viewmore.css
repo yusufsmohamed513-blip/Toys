@@ -1,0 +1,129 @@
+.buying{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.deliveryinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: Rubik;
+  
+    
+
+}
+.container-fluid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(230, 7, 81);
+    height: 10vh;
+    color: white;
+    font-family:Rubik;;
+    font-size: 15px;
+}
+
+.logo img{
+    padding: 50px;
+}
+input{
+    height: 5vh;
+    width:  30vw;
+    border-radius: 40px;
+    border: 1px solid rgb(230, 7, 81);
+    color: black;
+}
+button {
+     height: 5vh;
+    width:  15vw;
+    border-radius: 40px;
+    border: 1px solid rgb(230, 7, 81);
+    color: rgb(230, 7, 81);
+    text-align: center;
+    background-color: white;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    padding: 30px;
+    background-color:rgb(230, 7, 81) ;
+}
+.logo img1{
+  
+    width: 60px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.lists ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-family: Rubik;
+    font-size: 20px;
+    
+  
+}
+.lists ul li:hover{
+border-bottom: 2px solid wheat;
+}
+
+.CATEGORIES{
+    color: rgb(230, 7, 81) ;
+    background-color: rgb(165, 101, 44);
+    height: 12vh;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.images{
+   margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.images h2{
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+footer{
+     width: auto;
+    height: 60vh;
+    background-color: rgb(230, 7, 81) ;
+}
+.foots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Rubik;
+    padding: 30px;
+   
+}
+.icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik;
+    color: white;
+}
+

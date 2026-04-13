@@ -1,0 +1,222 @@
+.buying{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 20px;
+}
+.deliveryinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: Rubik;
+    font-size: 20px;
+  
+    
+
+}
+.container-fluid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 15vh;
+    color: white;
+    font-family:Rubik;;
+    font-size: 15px;
+}
+.class{
+     background-color: rgb(230, 7, 81);
+     margin-bottom: 30px;
+}
+
+.logo img{
+    padding: 50px;
+}
+.logo input{
+    height: 5vh;
+    width:  30vw;
+    border-radius: 40px;
+    border: 1px solid rgb(230, 7, 81);
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(230, 7, 81);
+    
+}
+.logo button{
+    height: 5vh;
+    width:  20vw;
+    border-radius: 40px;
+    border: 1px solid rgb(230, 7, 81);
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(230, 7, 81);
+    
+}
+.ourbutton {
+    
+text-align: center;
+
+}
+
+.ico{
+    color: white;
+    height: 10vh;
+    width: 20vw;
+}
+.cont button{
+   border-radius: 20px;
+    border: 1px solid rgb(230, 7, 81);
+    color: rgb(230, 7, 81);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    padding: 30px;
+    background-color:rgb(230, 7, 81) ;
+}
+.logo img1{
+  
+    width: 60px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.lists ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+.lists ul li:hover{
+border-bottom: 2px solid wheat;
+}
+
+.lists>ul>li>a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.CATEGORIES{
+    background-image: url(../Images/arrivalpage.png);
+    height: 18vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+   
+}
+
+.CATEGORIES h1{
+    font-family: Rubik;
+    height: 45px !important;
+    color: white;
+    text-align: center;
+}
+.CATEGORIES select{
+height: 7vh;
+width: 30vw;
+border: 1px solid rgb(230, 7, 81);
+border-radius: 20px;
+background-color: rgb(230, 7, 81);
+color: white;
+font-family: Ruik;
+font-size: 25px;
+margin-top: 10px;
+
+}
+  .filt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+  }
+
+
+
+footer{
+     width: auto;
+    height: 95vh;
+    background-color: rgb(230, 7, 81) ;
+}
+.foots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Rubik;
+    font-weight: bold;
+    padding: 30px;
+   
+}
+.icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* new arrivals page*/
+.payments{
+    font-family: Rubik;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(244, 219, 223);
+    border-radius: 15px;
+}
+
+.popular input{
+    height: 10vh;
+    width: 20vw;
+    text-align: center;
+    border: 1px solid rgb(241, 99, 99);
+    font-family: Rubik;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.popular{
+text-align: center;
+margin-top: 30px;
+}
+
+/*blogs html*/
+
+.coolesttoys{
+    background-image: url(../Images/reg-fluffy\ image.png);
+    background-color: skyblue;
+    height:55vh;
+    width: 90vw;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    margin: auto;
+}

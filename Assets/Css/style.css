@@ -1,0 +1,415 @@
+.buying{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.deliveryinfo{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: Rubik;
+    font-size: 20px;
+  
+    
+
+}
+.container-fluid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 15vh;
+    color: white;
+    font-family:Rubik;;
+    font-size: 15px;
+}
+.class{
+     background-color: rgb(230, 7, 81);
+     margin-bottom: 30px;
+}
+
+.logo img{
+    padding: 50px;
+}
+
+
+.ourbutton {
+    
+text-align: center;
+
+}
+.cont button{
+   border-radius: 20px;
+    border: 1px solid rgb(230, 7, 81);
+    color: rgb(230, 7, 81);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    padding: 30px;
+    background-color:rgb(230, 7, 81) ;
+}
+.logo img1{
+  
+    width: 60px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 30px;
+    color: white;
+    width: 30vw;
+}
+
+.lists ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+.lists ul li:hover{
+border-bottom: 2px solid wheat;
+}
+
+.lists>ul>li>a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.backimg{
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: inter,sans-serif;  
+    
+    
+}
+.backimg button{
+    height: 10vh;
+    width: 15vw;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+
+}
+.backimg {
+    background-image: url(../Images/reg-header\ image.png);
+    height:80vh !important;
+    width: 97vw;
+    margin:20px 20px;
+    
+}
+.backimg>div>img{
+    height: 100% !important;
+    width: 100%;
+}
+
+
+.cont{
+    text-align: center;
+    font-family: Rubik;
+}
+
+.fle{
+    display: flex;
+    justify-content: center;
+    align-items: center;padding: 30px;
+    
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.images h2{
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bannercont{
+ text-align: center;
+  border :3px solid rgb(241, 99, 99);
+  color: rgb(241, 99, 99);
+  padding: 25px;
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: bold;
+  height: 15vh;
+  width: 70vw;
+  margin: auto;
+  border-radius: 30px;
+  
+
+}
+.herozantal{
+    height: 12vh;
+    width: 20vw;
+    font-family: Rubik;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(241, 99, 99);
+    border-radius: 10px;
+    color:rgb(241, 99, 99) ;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+@media only screen and(max-width:330px) {
+  .logo{
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+  }
+    .logo button{
+      display: inline-block;
+      height: 8vh;
+
+    }
+    .cont{
+        height: 100vh;
+    }
+    .logo input{
+       flex-direction: row;
+       height: 8vh;
+}
+
+.foots{
+    flex-direction: column;
+}
+
+   .brands{
+    flex-direction: column;
+   }
+}
+
+@media only screen and(max-width:770px) {
+    .logo input{
+       flex-direction: row;
+       height: 8vh;
+}
+ .logo button{
+      display: inline-block;
+      height: 10vh;
+
+    }
+ .brands{
+    flex-direction: column;
+   }
+   
+}
+
+.banerbutton{
+    padding: 15px;
+    text-align: center;
+  
+}
+
+.banerbutton button{
+    height: 10vh;
+    width: 15vw;
+    border: 3px solid rgb(241, 99, 99);
+
+}
+.banerbutton a{
+    color:rgb(241, 99, 99) ;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.colorbooks1,.colorbooks2,.colorbooks3{
+   
+    text-align: center;
+}
+
+
+button{
+    height: 5vh;
+    width: 12vw;
+    border-radius: 20px;
+    border: 1px solid rgb(241, 99, 99);
+    background-color: rgb(241, 99, 99);
+    color:white ;
+}
+
+.Newarrivals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bestseller{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.cryon{
+    text-align: center;
+}
+.coolesttoys{
+    background-image: url(../Images/reg-fluffy\ image.png);
+    background-color: skyblue;
+    height:55vh;
+    width: 90vw;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    margin: auto;
+    
+}
+.payments{
+    font-family: Rubik;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(244, 219, 223);
+    border-radius: 15px;
+}
+
+.popular input{
+    height: 10vh;
+    width: 20vw;
+    text-align: center;
+    border: 1px solid rgb(241, 99, 99);
+    font-family: Rubik;
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(241, 99, 99);
+
+}
+.popular{
+text-align: center;
+margin-top: 30px;
+}
+
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+/*
+footer{
+     width: auto;
+    height: 70vh;
+    background-color: rgb(230, 7, 81) ;
+}
+.foots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Rubik;
+    padding: 30px;
+   
+}
+.icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Rubik;
+}
+
+*/
+
+
+footer{
+    background-color: rgb(230, 7, 81) ;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.section1 h3{
+    font-family: Rubik;
+    font-size: 20px;   
+}
+.foots{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Rubik;
+    padding: 50px;
+    text-align: center;
+    
+}
+.section2 h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Rubik;
+    
+    
+    
+}
+
+.section2 h3{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Rubik;
+    line-height: 35px;
+    
+    
+}
+
+.section3 h2{
+     font-size: 30px;
+    font-weight: bold;
+    font-family: Rubik;
+    
+    
+}
+
+.section3 h3{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Rubik;
+    line-height: 35px;
+    
+    
+}
+
+
+
+
+

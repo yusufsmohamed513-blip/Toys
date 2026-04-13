@@ -1,0 +1,160 @@
+.buying{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.deliveryinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: Rubik;
+}
+  /* catogeros*/
+ul li a{
+    color: black;
+    background-color: rgb(230, 7, 81);
+}
+
+.container-fluid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 15vh;
+    color: white;
+    font-family:Rubik;;
+    font-size: 15px;
+}
+.class{
+     background-color: rgb(230, 7, 81);
+     margin-bottom: 30px;
+}
+
+.logo img{
+    padding: 50px;
+}
+.logo input{
+    height: 5vh;
+    width:  30vw;
+    border-radius: 40px;
+    border: 1px solid rgb(230, 7, 81);
+    color: black;
+}
+.ourbutton {
+    
+text-align: center;
+
+}
+.cont button{
+   border-radius: 20px;
+    border: 1px solid rgb(230, 7, 81);
+    color: rgb(230, 7, 81);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0px;
+    padding: 30px;
+    background-color:rgb(230, 7, 81) ;
+}
+.logo img1{
+  
+    width: 60px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.lists ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+.lists ul li:hover{
+border-bottom: 2px solid wheat;
+}
+
+.lists>ul>li>a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.CATEGORIES{
+    color: rgb(230, 7, 81) ;
+    background-color:#EED76D;
+    height: 12vh;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.images{
+   margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.images h2{
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer{
+     width: auto;
+    background-color: rgb(230, 7, 81) ;
+    
+}
+.foots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Rubik;
+    padding: 30px;
+   
+}
+.icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* blog pages*/
+.coolesttoys{
+    background-image: url(../Images/reg-fluffy\ image.png);
+    height:55vh;
+    width: 90vw;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    margin: auto;
+    
+}
+
+button{
+    height: 5vh;
+    width: 12vw;
+    border-radius: 20px;
+    border: 1px solid rgb(241, 99, 99);
+    background-color: rgb(241, 99, 99);
+    color:white ;
+}
